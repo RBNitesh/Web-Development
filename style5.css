@@ -1,0 +1,11 @@
+#ip {
+  border: 2px solid black;
+  height: 25px;
+  border-radius: 3px;
+}
+
+#btn {
+  height: 28px;
+  border: 2px solid black;
+  border-radius: 3px;
+}
