@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function parent() {
+        let fathersMoney = 5000;
+        function child1() {
+          let childOneMoney = 2000;
+          console.log(fathersMoney);
+        }
+        function child2() {
+          console.log(fathersMoney);
+          console.log(childOneMoney);
+        }
+        child1();
+        child2();
+      }
+      parent();
+    </script>
+  </body>
+</html>
